@@ -17,3 +17,13 @@ TextStyle kTempTextStyle = const TextStyle(
   fontFamily: 'Spartan MB',
   fontSize: 100.0,
 );
+
+InputDecoration kInputDecorationStyle = InputDecoration(
+    filled: true,
+    fillColor: Colors.white.withOpacity(.4),
+    icon: const Icon(Icons.location_city, color: Colors.white),
+    hintText: 'City',
+    hintStyle: const TextStyle(fontWeight: FontWeight.bold),
+    border: OutlineInputBorder(
+        borderRadius: BorderRadius.circular(10.0),
+        borderSide: BorderSide.none));
